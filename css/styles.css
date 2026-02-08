@@ -8,6 +8,12 @@ html, body {
     background-color: #fffffc;
 } 
 
+h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    min-width: 20ch;
+}
+
 .header {
   height: 100vh;
   display: flex;
@@ -37,8 +43,8 @@ html, body {
 
 .report-container {
     display: flex;
-    align-items: stretch;
-    gap: 200px;
+    align-items: flex-start;
+    gap: 150px;
     margin: 100px 0 300px 0;
 }
 
@@ -47,15 +53,16 @@ html, body {
     max-width: 40%;
 }
 
-.report-content h1 {
-    font-weight: 600;
-    font-size: 2.5rem;
-    min-width: 20ch;
+.img-container {
+    max-width: 40%
 }
+.report-process {
+  text-align: center;
+}
+
 
 .report-text {
     font-size: 1.125rem;
-    max-width: 60ch;
 }
 
 .report-data {
